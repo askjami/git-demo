@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WhyTube - A Youtube Clone</title>
+
+    <!-- Conneting with app.css in the same folder to use TailwindCSS styles ->
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body bgcolor="#f7b11">
+<br>
+<p class="text-center font-black">Welcome to WhyTube - A Youtube Clone<b></p>
+<!- Search for Whytube Videos ->
+    <div id="ayaz">
+    <h1 class="text-blue-500">Search for Whytube Videos</h1>
+    </div>
+    
+<!-- Form Code -->
+
+<form onsubmit = "handleSearchForm(); return false;">
+    <input name="search" id="search" type="text" placeholder="Search...">
+    <input type="submit" value="submit">
+</form>
+<br>
+<br>
+<!- The JavaScript File app.js has the function that handles the form output ->
+    <div>
+    <script src="app.js"></script>
+    </div>
+
+ <! TailwindCSS Style Grid for Random Video Page ->
+ 
+<div class="grid grid-rows-3 grid-flow-col gap-2">
+  <div class="row-span-3 col-span-1..."><iframe width="260" height="215" src="https://www.youtube.com/embed/IC9urbiVp4M" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe></div>
+  <div class="row-span-3 col-span-1 ..."><iframe width="260" height="215" src="https://www.youtube.com/embed/mO3Q4bRQZ3k" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe></div>
+  <div class="row-span-3 col-span-1 ..."><iframe width="260" height="215" src="https://www.youtube.com/embed/E9oKEJ1pXPw" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe></div>
+  <div class="row-span-3 col-span-1 ..."><iframe width="260" height="215" src="https://www.youtube.com/embed/P4boyXQuUIw" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe></div>
+  </div>
+  
+  <br>
+<div class="grid grid-rows-3 grid-flow-col gap-2">
+  <div class="row-span-3 col-span-1 ..."><iframe width="260" height="215" src="https://www.youtube.com/embed/65JrtwtTOdc" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="row-span-3 col-span-1 ..."><iframe width="260" height="215" src="https://www.youtube.com/embed/SQIbeAk-bFA" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="row-span-3 col-span-1 ..."><iframe width="260" height="215" src="https://www.youtube.com/embed/r_VSll0WLZE" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="row-span-3 col-span-1 ..."><iframe width="260" height="215" src="https://www.youtube.com/embed/HAZiE9NtRfs" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+<hr>
+<hr>
+<br>
+<h1>Copyright © 2020   WhyTube Inc.</h1>
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Youtube Videos Search</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="ayaz">
+    <h1 class="text-blue-500">Search for Youtube Videos</h1>
+    </div>
+
+ <style>
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #7f9199;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>The grid-gap Property:</h1>
+
+<div class="grid-container">
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/cnXapYkboRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/4wGmylafgM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/IC9urbiVp4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/mO3Q4bRQZ3k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/E9oKEJ1pXPw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/P4boyXQuUIw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+    
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/K_IjoAdYIco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/4wGmylafgM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+  
+  <div> <iframe width="260" height="215" src="https://www.youtube.com/embed/4wGmylafgM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+</div>
+
+<p>Use the <em>grid-gap</em> property to adjust the space between the columns <em>and</em> the rows.</p>
+
+
+<form onsubmit = "handleSearchForm(); return false;">
+    <input name="search" id="search" type="text" placeholder="Search...">
+    <input type="submit" value="submit">
+</form>
+    <div>
+    <script src="app.js"></script>
+    </div>
+</body>
+</html>
